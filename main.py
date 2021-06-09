@@ -9,6 +9,8 @@ def main():
     lista_termos = procura_termo.get_page(termo)
     for el in range(len(lista_termos)):
         print(lista_termos[el])
+    print("This dataset contains information from The UNESCO Thesaurus which is made available by UNESCO under the CC-BY-SA 3.0 IGO license.")
+    #eventualmente pode se melhorar a atribuição
 
 
 
